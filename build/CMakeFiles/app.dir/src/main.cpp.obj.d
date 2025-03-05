@@ -303,7 +303,6 @@ CMakeFiles/app.dir/src/main.cpp.obj: \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/sstream \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
- E:/OpenglLeraning/illumination/learnOpenGLShaderClass/winIni.hpp \
  E:/lib_c/glfw-3.4/include/GLFW/glfw3.h \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/memory \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_tempbuf.h \
@@ -321,4 +320,17 @@ CMakeFiles/app.dir/src/main.cpp.obj: \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/atomic_lockfree_defines.h \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward/auto_ptr.h \
  E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/glue_memory_defs.h \
- E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/execution_defs.h
+ E:/Compiler/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/execution_defs.h \
+ E:/OpenglLeraning/illumination/learnOpenGLShaderClass/camera.hpp \
+ E:/OpenglLeraning/illumination/glm/gtc/matrix_transform.hpp \
+ E:/OpenglLeraning/illumination/glm/ext/matrix_projection.hpp \
+ E:/OpenglLeraning/illumination/glm/gtc/constants.hpp \
+ E:/OpenglLeraning/illumination/glm/ext/scalar_constants.hpp \
+ E:/OpenglLeraning/illumination/glm/ext/scalar_constants.inl \
+ E:/OpenglLeraning/illumination/glm/gtc/constants.inl \
+ E:/OpenglLeraning/illumination/glm/ext/matrix_projection.inl \
+ E:/OpenglLeraning/illumination/glm/ext/matrix_clip_space.hpp \
+ E:/OpenglLeraning/illumination/glm/ext/matrix_clip_space.inl \
+ E:/OpenglLeraning/illumination/glm/ext/matrix_transform.hpp \
+ E:/OpenglLeraning/illumination/glm/ext/matrix_transform.inl \
+ E:/OpenglLeraning/illumination/glm/gtc/matrix_transform.inl

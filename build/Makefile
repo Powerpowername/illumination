@@ -135,6 +135,30 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+E_/lib_c/glad/src/glad.obj: E_/lib_c/glad/src/glad.c.obj
+.PHONY : E_/lib_c/glad/src/glad.obj
+
+# target to build an object file
+E_/lib_c/glad/src/glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj
+.PHONY : E_/lib_c/glad/src/glad.c.obj
+
+E_/lib_c/glad/src/glad.i: E_/lib_c/glad/src/glad.c.i
+.PHONY : E_/lib_c/glad/src/glad.i
+
+# target to preprocess a source file
+E_/lib_c/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.i
+.PHONY : E_/lib_c/glad/src/glad.c.i
+
+E_/lib_c/glad/src/glad.s: E_/lib_c/glad/src/glad.c.s
+.PHONY : E_/lib_c/glad/src/glad.s
+
+# target to generate assembly for a file
+E_/lib_c/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.s
+.PHONY : E_/lib_c/glad/src/glad.c.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -159,30 +183,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/stb_image.obj: src/stb_image.cpp.obj
-.PHONY : src/stb_image.obj
-
-# target to build an object file
-src/stb_image.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/stb_image.cpp.obj
-.PHONY : src/stb_image.cpp.obj
-
-src/stb_image.i: src/stb_image.cpp.i
-.PHONY : src/stb_image.i
-
-# target to preprocess a source file
-src/stb_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/stb_image.cpp.i
-.PHONY : src/stb_image.cpp.i
-
-src/stb_image.s: src/stb_image.cpp.s
-.PHONY : src/stb_image.s
-
-# target to generate assembly for a file
-src/stb_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/stb_image.cpp.s
-.PHONY : src/stb_image.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,12 +193,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... app
+	@echo ... E_/lib_c/glad/src/glad.obj
+	@echo ... E_/lib_c/glad/src/glad.i
+	@echo ... E_/lib_c/glad/src/glad.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/stb_image.obj
-	@echo ... src/stb_image.i
-	@echo ... src/stb_image.s
 .PHONY : help
 
 

@@ -86,32 +86,33 @@ CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
 	E:\Compiler\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\OpenglLeraning\illumination\src\main.cpp -o CMakeFiles\app.dir\src\main.cpp.s
 
-CMakeFiles/app.dir/src/stb_image.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/stb_image.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
-CMakeFiles/app.dir/src/stb_image.cpp.obj: E:/OpenglLeraning/illumination/src/stb_image.cpp
-CMakeFiles/app.dir/src/stb_image.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\OpenglLeraning\illumination\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/stb_image.cpp.obj"
-	E:\Compiler\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/stb_image.cpp.obj -MF CMakeFiles\app.dir\src\stb_image.cpp.obj.d -o CMakeFiles\app.dir\src\stb_image.cpp.obj -c E:\OpenglLeraning\illumination\src\stb_image.cpp
+CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj: CMakeFiles/app.dir/includes_C.rsp
+CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj: E:/lib_c/glad/src/glad.c
+CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\OpenglLeraning\illumination\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj"
+	E:\Compiler\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj -MF CMakeFiles\app.dir\E_\lib_c\glad\src\glad.c.obj.d -o CMakeFiles\app.dir\E_\lib_c\glad\src\glad.c.obj -c E:\lib_c\glad\src\glad.c
 
-CMakeFiles/app.dir/src/stb_image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/stb_image.cpp.i"
-	E:\Compiler\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\OpenglLeraning\illumination\src\stb_image.cpp > CMakeFiles\app.dir\src\stb_image.cpp.i
+CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.i"
+	E:\Compiler\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\lib_c\glad\src\glad.c > CMakeFiles\app.dir\E_\lib_c\glad\src\glad.c.i
 
-CMakeFiles/app.dir/src/stb_image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/stb_image.cpp.s"
-	E:\Compiler\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\OpenglLeraning\illumination\src\stb_image.cpp -o CMakeFiles\app.dir\src\stb_image.cpp.s
+CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.s"
+	E:\Compiler\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\lib_c\glad\src\glad.c -o CMakeFiles\app.dir\E_\lib_c\glad\src\glad.c.s
 
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.cpp.obj" \
-"CMakeFiles/app.dir/src/stb_image.cpp.obj"
+"CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
 bin/app.exe: CMakeFiles/app.dir/src/main.cpp.obj
-bin/app.exe: CMakeFiles/app.dir/src/stb_image.cpp.obj
+bin/app.exe: CMakeFiles/app.dir/E_/lib_c/glad/src/glad.c.obj
 bin/app.exe: CMakeFiles/app.dir/build.make
+bin/app.exe: E:/lib_c/glfw-3.4/build_mingw/src/libglfw3.a
 bin/app.exe: CMakeFiles/app.dir/linkLibs.rsp
 bin/app.exe: CMakeFiles/app.dir/objects1.rsp
 bin/app.exe: CMakeFiles/app.dir/link.txt
