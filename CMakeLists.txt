@@ -15,7 +15,6 @@ target_include_directories(app PUBLIC ${HEADER})
 
 
 
-
 # 链接库
 find_package(OpenGL REQUIRED)
 if(OPENGL_FOUND)
