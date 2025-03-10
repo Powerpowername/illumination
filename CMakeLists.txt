@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.31)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/build/bin)
 project(APP)
 set(CMAKE_VERSION 3.31)
-
+# set(CMAKE_BUILD_TYPE Debug)
 
 set(HEADER ${CMAKE_SOURCE_DIR}/include  E:/lib_c/glad/include E:\\OpenglLeraning\\illumination E:\\lib_c\\glfw-3.4\\include )
 
-set(SRC ${CMAKE_SOURCE_DIR}/src/main.cpp E:/lib_c/glad/src/glad.c)
+set(SRC ${CMAKE_SOURCE_DIR}/src/main.cpp E:/lib_c/glad/src/glad.c ${CMAKE_SOURCE_DIR}/src/stb_image.cpp)
 # message(FATAL_ERROR "GLAD library not found in ${SRC}")
 
 add_executable(app ${SRC})

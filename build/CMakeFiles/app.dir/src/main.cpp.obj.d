@@ -333,4 +333,5 @@ CMakeFiles/app.dir/src/main.cpp.obj: \
  E:/OpenglLeraning/illumination/glm/ext/matrix_clip_space.inl \
  E:/OpenglLeraning/illumination/glm/ext/matrix_transform.hpp \
  E:/OpenglLeraning/illumination/glm/ext/matrix_transform.inl \
- E:/OpenglLeraning/illumination/glm/gtc/matrix_transform.inl
+ E:/OpenglLeraning/illumination/glm/gtc/matrix_transform.inl \
+ E:/OpenglLeraning/illumination/include/stb_image.h
