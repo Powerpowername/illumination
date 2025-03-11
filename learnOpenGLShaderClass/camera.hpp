@@ -1,3 +1,17 @@
+/*
+摄像机
+------构造函数
+------------Positon，Front，Worldup，Yaw，Pitch
+------------通过updateCameraVectors()，计算出Right向量和lookAt矩阵，lookAt矩阵就是view举证
+------------同时updateCameraVectors()会根据摄像机的位置与欧拉角等的参数，计算出方向向量
+------------在构造函数中不适用的化，方向向量可能就不是正确的（主要是因为一开始的右向量是没有主动赋值的，所以因该是0）
+*/
+
+
+
+
+
+
 #ifndef CAMERA_H
 #define CAMERA_H
 
@@ -46,6 +60,7 @@ public:
         WorldUp = up;
         Yaw = yaw;
         Pitch = pitch;
+        //需要计算Right向量的值，否则就没有办法正确计算观察矩阵
         updateCameraVectors();
     }
     // constructor with scalar values
